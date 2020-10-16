@@ -6,6 +6,7 @@
 4. `$ git clone { github repo addr }`
 5. Do your work
 6. `$ git add {filename}` -> `$ git commit` -> `$git push origin main`
+7. You have to check `git status` every steps.
 
 ## Conventional Commits
 
