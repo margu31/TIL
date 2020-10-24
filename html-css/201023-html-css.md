@@ -103,11 +103,11 @@ text-indent 블록 요소에만 적용 가능한 CSS 속성으로, 들여쓰기�
 
 ## `<dl>` , `<dt>` , `<dd>`
 
-Description-List, Description-Term, Description-Description의 약자이며, <dl> 은 자식요소로 <dt>와 <dd>만 취한다.
+Description-List, Description-Term, Description-Description의 약자이며, `<dl>` 은 자식요소로 `<dt>`와 `<dd>`만 취한다.
 
 key=value 일 때 쓰기 적합하다.  즉, `dt` 와 `dd` 가 1:1로 쌍을 이룰 때 사용하기를 권장한다고 한다. 아직 사용법이 많이 와닿지는 않아 좀 더 고민해봐야겠다.
 
-HTML 5.2 에서 `dl` 태그 내에 `div` 태그를 사용할 수 있게 되었다고 한다. 그러나 `dl` 태그 안의 `div` 는 child로 <dt>와 <dd>만 가져올 수 있다.
+HTML 5.2 에서 `dl` 태그 내에 `div` 태그를 사용할 수 있게 되었다고 한다. 그러나 `dl` 태그 안의 `div` 는 child로 `<dt>`와 `<dd>`만 가져올 수 있다.
 
 ```html
 <section class="term">
