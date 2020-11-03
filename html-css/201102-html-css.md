@@ -34,11 +34,11 @@ picture 태그는 IE11에서 지원되지 않으며, img 태그에도 srcset 속
 
 단말기 유형, 디바이스 뷰포트 또는 해상도 등 특정 조건에 따라 스타일을 적용할 때 사용한다.
 
-- 미디어 유형
-all - 모든 장치
-print - 인쇄 결과물 및 출력 미리보기
-screen - 화면
-speech - 음성 장치 대상
+- 미디어 유형  
+all - 모든 장치  
+print - 인쇄 결과물 및 출력 미리보기  
+screen - 화면  
+speech - 음성 장치 대상  
 
 ```css
 @media all and (max-width:767px){
